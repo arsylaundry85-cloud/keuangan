@@ -16,8 +16,8 @@ def load_data():
   return pd.read_csv(CSV_FILE)
 
 
-# Konfigurasi Tampilan Utama
-st.set_page_title("Aplikasi Keuangan Online", page_icon="💰")
+# Konfigurasi Tampilan Utama (Diperbaiki)
+st.set_page_config(page_title="Aplikasi Keuangan Online", page_icon="💰")
 st.title("Aplikasi Keuangan Harian 📊")
 st.write(
     "Kelola keuangan dengan kategori Harian, Lain-lain, Laundry, dan Tabungan."
